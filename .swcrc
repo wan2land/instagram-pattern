@@ -1,0 +1,14 @@
+{
+  "test": ".*.ts$",
+  "env": {
+    "targets": "defaults"
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "jsc": {
+    "parser": {
+      "syntax": "typescript"
+    }
+  }
+}
