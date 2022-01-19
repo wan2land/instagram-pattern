@@ -1,0 +1,24 @@
+{
+  "name": "instagram-pattern",
+  "version": "0.0.1",
+  "description": "Perfect instagram regex pattern",
+  "keywords": [
+    "instagram",
+    "hashtag",
+    "regex"
+  ],
+  "author": "Changwan Jun <wan2land@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/wan2land/instagram-pattern",
+  "scripts": {
+    "build": "npm run build:esm",
+    "build:esm": "esbuild index.js --bundle --outfile=index.esm.js --format=esm --minify"
+  },
+  "main": "index.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "esbuild": "^0.14.11",
+    "jest": "^27.4.7"
+  }
+}
