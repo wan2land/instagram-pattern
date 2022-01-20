@@ -1,10 +1,11 @@
 {
   "name": "instagram-pattern",
   "version": "0.0.1",
-  "description": "Perfect instagram regex pattern",
+  "description": "Perfect Instagram pattern library extracted from Instagram.",
   "keywords": [
     "instagram",
     "hashtag",
+    "regexp",
     "regex"
   ],
   "author": "Changwan Jun <wan2land@gmail.com>",
@@ -14,7 +15,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "prepack": "npm run test && npm run build",
-    "build": "rimraf ./lib && swc src -d lib --config-file ./build.swcrc && tsc",
+    "build": "rimraf ./lib && swc src -d lib --config-file ./build.swcrc && tsc -p tsconfig.build.json",
     "test": "npm run build && npm run test:unit",
     "test:unit": "jest src --runInBand"
   },

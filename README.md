@@ -6,7 +6,7 @@
   <a href="https://www.npmjs.com/package/instagram-pattern"><img alt="License" src="https://img.shields.io/npm/l/instagram-pattern.svg?style=flat-square" /></a>
 </p>
 
-Instagram pattern library extracted from Instagram.
+Perfect Instagram pattern library extracted from Instagram.
 
 ## Installation
 
