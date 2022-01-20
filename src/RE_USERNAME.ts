@@ -1,5 +1,5 @@
 /*
- * @src https://www.instagram.com/static/bundles/es6/Consumer.js/acfe8fb0ea18.js 356 line
+ * @src https://www.instagram.com/static/bundles/es6/Consumer.js/485e68ba2dd9.js 480 line
  */
 
 const prefix = '[@＠]'
