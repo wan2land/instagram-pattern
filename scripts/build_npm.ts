@@ -36,10 +36,10 @@ await build({
     license: "MIT",
     repository: {
       type: "git",
-      url: "git+https://github.com/denostack/instagram-pattern.git",
+      url: "git+https://github.com/wan2land/instagram-pattern.git",
     },
     bugs: {
-      url: "https://github.com/denostack/instagram-pattern/issues",
+      url: "https://github.com/wan2land/instagram-pattern/issues",
     },
   },
 });
